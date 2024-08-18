@@ -49,8 +49,9 @@ def print_menu():
     print("Opciones:")
     print("1- Cargar Libros")
     print("2- Cargar Tags")
+    
     # TODO: Mods de Est-1 en el Lab 2, agregar opcion 3
-
+    print ("3-cargar tags de libros")
     print("0- Salir")
 
 
@@ -77,7 +78,13 @@ def load_books_tags(control):
     Cargar los Tags de libros
     """
     # TODO: Mods de Est-1 en el Lab 2
+    booktags = logic.load_books_tags(control,
+                                        "GoodReads/ book_tags-small.cvs"   )
+    return booktags
     pass
+
+
+
 
 
 def first_book(control):
@@ -85,6 +92,11 @@ def first_book(control):
     Devuelve el primer libro del catalogo
     """
     # TODO: Mods de Est-1 en el Lab 2
+    first = logic.first_book (control)
+    return first 
+    first = first_book (control)
+    print ("Primer libro cargado:\n" + str(first) + "\n")
+    
     pass
 
 
