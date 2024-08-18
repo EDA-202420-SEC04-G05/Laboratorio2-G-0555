@@ -33,6 +33,9 @@ The students edit this section to add their names, Uniandes emails, and specify 
 
 1. Student No. 1 Daniela Bautista Garces > d.bautistag@uniandes.edu.co 
 1. Student No. 2 . Juan David Macias Rodriguez > jd.macias2@uniandes.edu.co
+1. student No. 3. Thubal Alejandro Contreras Martinez > t.contrerasm@uniandes.edu.co
+
+
 
 [Back to top](#sample-conflicts)
 
